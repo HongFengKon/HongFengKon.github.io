@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>枫の电商导航</title>
+    <link rel="icon" href="./img/Web_Icon.png" sizes="128x128">
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+.wrap{
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+.wrap div{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+    color: #fff;
+    scroll-snap-align: start;
+    z-index: -1;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.one{
+    background-image: url(./img/bg.jpg);
+    flex-direction: column;
+}
+.two{
+    background-image: url(./img/Head/mi.png);
+    flex-direction: column;
+}
+.three{
+    background-image: url(./img/Head/HW.png);
+    flex-direction: column;
+}
+.four{
+    background-image: url(./img/Head/VV.png);
+    flex-direction: column;
+}.four{
+    background-image: url(./img/Head/VV.png);
+    flex-direction: column;
+}
+.five{
+    background-image: url(./img/Head/OP.png);
+    flex-direction: column;
+}
+li{
+    background-repeat: no-repeat;
+    background-size: cover;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+p{
+    font-size: 48px;
+    font-weight: 900;   
+    padding-bottom: 40px;
+    color: #464646;
+}
+.one li{
+    margin-bottom: 80px;
+    width: 880px;
+    height: 400px;
+    background-image: url(./img/Head/Text1.png);
+}
+</style>
+<body>
+    <div class="wrap">
+        <a href="#">
+            <div class="one">
+                <li></li>
+                <p>让电商购物更简单</p>
+            </div>
+        </a>
+        <a href="./mi.html">
+            <div class="two"></div>
+        </a>
+        <a href="./HUAWEI.html">
+            <div class="three"></div>
+        </a>
+        <a href="./Vivo.html">
+            <div class="four"></div>
+        </a>
+        <a href="./Oppo.html">
+            <div class="five"></div>
+        </a>
+    </div>
+</body>
+</html>
